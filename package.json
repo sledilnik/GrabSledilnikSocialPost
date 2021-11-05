@@ -1,0 +1,28 @@
+{
+  "name": "grab-sledilnik-social-post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.4.1",
+    "puppeteer": "^11.0.0"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "Please use yarn",
+    "yarn": "1.22.x"
+  }
+}
