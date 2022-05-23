@@ -16,4 +16,4 @@ function run(queryStringParameters = { post: null, social: "TW" }) {
   (async () => await handler(event, null, callback))();
 }
 
-run({ post: "EP", social: "fb" });
+run({ post: "LAB_W", social: "tw" });

@@ -4,13 +4,15 @@ const url = "https://sledilnik-social.netlify.app/";
 
 const socialButton = "#social-changer + span";
 const possibleSocial = ["TW", "FB"];
-const possiblePosts = ["lab", "hos", "epi"];
+const possiblePosts = ["lab", "hos", "epi", "lab_w", "epi_w"];
 const navButtons = ".tablinks";
 
 const PostLinks = {
   lab: 0,
   hos: 1,
   epi: 2,
+  lab_w: 3,
+  epi_w: 4,
 };
 
 const removeConsecutiveNewLines = (text) => {
